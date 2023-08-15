@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>premier pas</title>
+    <title>CSS for the win</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"" type="image/x-icon" />
 </head>
 <body>
     <header>
         <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css logo"></div>
         <div><ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">about</a></li>
+            <li><select name="about" id="about">
+                <option value="About" selected disabled>About</option>
+                <optgroup label="About us">
+                    <option value="waw">Who are we ? </option>
+                    <option value="map">Our localisation</option>
+                  </optgroup>
+                  <optgroup label="Settings">
+                    <option value="profil">Profil</option>
+                    <option value="sec">Security</option>
+                  </optgroup>
+            </select></li>
             <li><a href="#go">Projects</a></li>
             <li><a href="contact.html">Contacts</a></li>
         </ul></div>
@@ -70,6 +81,5 @@
         <a href="contact.html">Contact us</a>
         <a href="#">Terms of service</a></p>
     </footer>
-    
 </body>
 </html>
