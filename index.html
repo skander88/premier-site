@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS for the win</title>
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css logo"></div>
-        <div><ul>
+        <div><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css logo"></div>
+        <div><ul class="liste">
             <li><a href="#">Home</a></li>
             <li><select name="about" id="about">
                 <option value="About" selected disabled>About</option>
@@ -26,56 +27,57 @@
             <li><a href="contact.html">Contacts</a></li>
         </ul></div>
     </header>
-    <section>
+    <main>
+    <section class="sec">
         <div>
             <div><h1>Want to learn CSS ? Join us for more videos .</h1></div>
-            <div><button>Watch video</button></div>
+            <div><button class="btn">Watch video</button></div>
         </div>
         <div>
-            <video controls source src="cssvid.mp4" ></video>
+            <video controls source src="cssvid.mp4" class="vid" ></video>
         </div>
     </section>
-    <section id="go">
-        <div>
-            <div><img src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
-            <div>
-                <h2>Project 1</h2><br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
-                <a href="#">Explore and learn more</a>
-
-            </div>
+    <section class="sec2">
+        <div class="row">
+            <div class="dive1">
+            <div class="divfoto"><img class="photo" src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
+            <div><h2>Project 1</h2><br>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
+                <a href="#" class="learn">Explore and learn more</a></div></div>
+    
+        <div class="dive1">
+            <div class="divfoto"><img class="photo" src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
+            <div ><h2>Project 2</h2><br>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
+                <a href="#" class="learn">Explore and learn more</a></div>
+        </div >
+            <div class="dive1">
+            <div class="divfoto"><img  class="photo" src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
+            <div ><h2>Project 3</h2><br>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
+                <a href="#" class="learn">Explore and learn more</a></div></div>
         </div>
-        <div>
-            <div><img src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
-            <div><h2>Project 2</h2><br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
-                <a href="#">Explore and learn more</a></div>
-        </div>
-        <div>
-            <div><img src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
-            <div><h2>Project 3</h2><br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
-                <a href="#">Explore and learn more</a></div>
-        </div>
-        <div>
-            <div><img src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
+        <div class="row2">
+            <div class="dive2">
+            <div class="divfoto"><img class="photo" src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
             <div><h2>Project 4</h2><br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
-                <a href="#">Explore and learn more</a></div>
-        </div>
-        <div>
-            <div><img src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
-            <div><h2>Project 5</h2><br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
-                <a href="#">Explore and learn more</a></div>
-        </div>
-        <div>
-            <div><img src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
-            <div><h2>Project 6</h2><br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
-                <a href="#">Explore and learn more</a></div>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
+                <a href="#" class="learn">Explore and learn more</a></div></div>
+    
+        <div class="dive2">
+            <div class="divfoto"><img class="photo" src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
+            <div ><h2>Project 5</h2><br>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
+                <a href="#" class="learn">Explore and learn more</a></div>
+        </div >
+            <div class="dive2">
+            <div class="divfoto"><img  class="photo" src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg" alt="photo pc"></div>
+            <div ><h2>Project 6</h2><br>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident fugiat repellat voluptatum, ex illo doloribus commodi incidunt a harum, itaque nulla reprehenderit atque aut inventore! Tempora laboriosam in magni.</p><br>
+                <a href="#" class="learn">Explore and learn more</a></div></div>
         </div>
     </section>
+</main>
     <footer>
         <p>Here's our infos
         <a href="contact.html">Contact us</a>
