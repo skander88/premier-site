@@ -121,4 +121,54 @@ h2{
     font-size: xx-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.body2{
+    text-align: center;
+}
+.h11{
+    color: rgba(27, 5, 43, 0.822);
+}
+.h11:hover{
+    color: blanchedalmond;
+    font-size: xx-large;
+}
+#bt1 , #bt2{
+    font-size: large;
+}
+#bt1:hover{
+    background-color: darkred ;
+    font-size: x-large;
 
+}
+#bt2:hover{
+    background-color: green;
+    font-size: x-large;
+
+}
+.lab{
+    font-size: larger;
+}
+.lab:hover{
+    color: blanchedalmond;
+    font-size: x-large;
+}
+form{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 100px;
+    padding-bottom: 30px;
+}
+fieldset{
+    border-color: rgba(118, 130, 141, 0.445);
+}
+.fin{
+    color: rgb(0, 0, 85);
+    font-size: x-large;
+}
+.txt{
+    color: blue;
+    font-size: large;
+}
+.psd{
+    color: brown;
+    font-size: large;
+}
